@@ -5,14 +5,17 @@
   width: $cardsWidth;
   height: 403px;
   padding: 29px 14px 14px;
+  margin-bottom: $distanceBetweenCards;
 
-  border: 1px solid #f3f3f3;
+  border: 1px solid $border_color;
   border-radius: 5px;
 
   &__img {
     margin: 0 5px 45px;
     height: 134px;
     width: 160px;
+
+    transition-duration: 0.4s;
   }
 
   &__text {
@@ -90,5 +93,7 @@
     color: $color_text;
 
     background-color: #fff;
+
+    transition-duration: 0.4s;
   }
 }
