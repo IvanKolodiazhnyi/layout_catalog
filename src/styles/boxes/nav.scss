@@ -25,9 +25,13 @@
     text-transform: uppercase;
   }
 
-  &__link:hover,
   &__link--is-active {
     color: $color_text;
+  }
+
+  &__link:hover {
+    color: $color_text;
+    transition: color 0.4s;
   }
 
   &__link--is-active::after {
